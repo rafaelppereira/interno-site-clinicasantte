@@ -1089,13 +1089,15 @@ export default function HomePage() {
 
             <Reveal>
               <div className="absolute w-[90%] text-sm p-5  right-0 -bottom-10 rounded-md  bg-primary-400 text-white">
-                <h1 className="text-xl font-medium">Renato Cabral</h1>
+                <h1 className="text-xl font-medium">Dr. Rafael Meirelles</h1>
                 <p className="text-xs mt-3 text-zinc-200 leading-relaxed">
-                  - Nisi eiusmod pariatur amet anim esse dolor.
+                  - Graduação em Medicina pela Universidade de Ribeirão Preto SP
+                  – UNAER
                 </p>
 
                 <p className="text-xs mt-3 text-zinc-200 leading-relaxed">
-                  - Nisi eiusmod pariatur amet anim esse dolor.
+                  - Residência Médica em Cardiologia - Hospital Beneficência
+                  Portuguesa de Ribeirão Preto – SP
                 </p>
               </div>
             </Reveal>
@@ -1109,20 +1111,30 @@ export default function HomePage() {
             </Reveal>
             <Reveal>
               <p className="leading-relaxed text-md md:text-lg mt-4 text-zinc-500">
-                Amet aute ut minim sint labore adipisicing proident amet. Quis
-                mollit laboris in sit voluptate irure laborum cillum qui
-                commodo. Duis dolor non ea nulla consectetur qui incididunt
-                ipsum. Eiusmod pariatur sit magna consectetur quis deserunt. Ut
-                veniam esse incididunt sunt tempor veniam aliqua culpa commodo
-                consequat.
-                <br />
-                <br />
-                Proident adipisicing id aliquip cupidatat. Adipisicing magna est
-                do adipisicing tempor. Irure cillum proident aliquip aliquip
-                cillum non laboris duis culpa id duis ullamco proident. Labore
-                tempor proident laboris occaecat commodo eiusmod do ea occaecat
-                velit ullamco nostrud esse. Occaecat irure id adipisicing minim
-                id voluptate aliqua dolore velit irure eu excepteur.
+                <ul>
+                  <li className="mb-3">
+                    - Membro da American Heart Association.
+                  </li>
+                  <li className="mb-3">
+                    - Membro do American College br of Cardiology.
+                  </li>
+                  <li className="mb-3">
+                    - Membro do Corpo Clínico do Instituto deCardiologia de
+                    Santa Catarina.
+                  </li>
+                  <li className="mb-3">
+                    - Membro Titular do Departamento de Ergometria, Exercício,
+                    Cardiologia Nuclear e Reabilitação Cardiovascular (DERC) .
+                  </li>
+                  <li className="mb-3">
+                    - Membro Titular da Sociedade Brasileira de Cardiologia
+                    (SBC).
+                  </li>
+                  <li className="">
+                    - Título de Especialista em Cardiologia pela Sociedade
+                    Brasileira de Cardiologia e Associação Médica Brasileira.
+                  </li>
+                </ul>
               </p>
             </Reveal>
           </div>
@@ -1240,7 +1252,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal>
               <span className="text-sm text-zinc-400 mt-2 font-light">
-                Feito por Nitro desenvolvimentos
+                Feito por Nitro Desenvolvimentos
               </span>
             </Reveal>
           </div>

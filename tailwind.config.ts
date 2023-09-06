@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url(/backgrounds/banner.png)",
+        banner: "url(/backgrounds/banner2.png)",
         maintenance: "url(/backgrounds/bg-auth.png)",
         nutricaoBanner: "url(/backgrounds/nutricao_banner.png)",
       },
