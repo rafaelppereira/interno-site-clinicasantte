@@ -893,18 +893,18 @@ export default function HomePage() {
             </Reveal>
             <Reveal>
               <p className="mt-4 text-zinc-500 font-light leading-relaxed text-md sm:text-lg">
-                Lorem ipsum dolor sit amet consectetur. Sit semper aliquam vel
-                in massa amet ultricies ac dignissim. Lobortis amet scelerisque
-                pellentesque consectetur tellus amet eget.
+                Nossa equipe é formada por profissionais que buscam de forma
+                incessante a excelência em atendimento humanizado e acolhedor.
                 <br />
                 <br />
-                Mi sit ac pulvinar suspendisse sit nisl curabitur. Urna nisi
-                pharetra quam fermentum vel tincidunt. Orci volutpat nulla
-                gravida phasellus lectus. Vitae consectetur malesuada eu felis.
-                Integer nulla sociis mollis ultricies purus ultrices platea
-                eros. vel tincidunt. Orci volutpat nulla gravida phasellus
-                lectus. Vitae consectetur malesuada eu felis. Integer nulla
-                sociis mollis ultricies purus ultrices platea eros.
+                Nossas especialidades vão além de consultas, somos referência em
+                atendimento cardiológico tanto na realização de diagnósticos,
+                consultas e exames, com abordagem humanizada, com foco na
+                segurança, conforto e bem-estar do paciente. Em nossa clinica
+                temos programas de reabilitação com fisioterapeutas
+                especializados, cuidamos também de sua saúde mental com
+                profissionais altamente preparados, com muito
+                carinho e discrição.
               </p>
             </Reveal>
           </div>
