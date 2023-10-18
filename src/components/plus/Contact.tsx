@@ -49,7 +49,7 @@ export function Contact() {
               ></iframe>
               <img
                 className="absolute right-3 bottom-3 w-44 h-44 select-none object-cover rounded-md border-4 border-zinc-300"
-                src="/santte/image_about.png"
+                src="/santte/clinica01.JPG"
                 alt="Black Office"
               />
             </div>
