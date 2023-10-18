@@ -19,6 +19,8 @@ import {
   CircleDashed,
   InstagramLogo,
   EnvelopeSimple,
+  PhoneDisconnect,
+  DeviceMobile,
 } from "phosphor-react";
 import { convenios } from "@/utils/content/convenios";
 
@@ -73,7 +75,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between px-8 max-w-7xl w-full mx-auto ">
             <div className="hidden lg:flex items-center gap-2">
               <Link
-                href=""
+                href="https://www.instagram.com/santtesaude/"
                 target="_blank"
                 className="bg-primary-400 text-white/90 rounded-full p-[0.3rem] hover:brightness-90 transition-all"
                 title="Clique para ir para o nosso Instagram"
@@ -82,7 +84,7 @@ export default function HomePage() {
               </Link>
 
               <Link
-                href=""
+                href="https://www.facebook.com/santtesaude"
                 target="_blank"
                 className="bg-primary-400 text-white/90 rounded-full p-[0.3rem] hover:brightness-90 transition-all"
                 title="Clique para ir para o nosso Facebook"
@@ -91,7 +93,7 @@ export default function HomePage() {
               </Link>
 
               <Link
-                href=""
+                href="https://api.whatsapp.com/send?phone=5548991194424"
                 target="_blank"
                 className="bg-primary-400 text-white/90 rounded-full p-[0.3rem] hover:brightness-90 transition-all"
                 title="Clique para ir para o nosso Whatsapp"
@@ -103,10 +105,13 @@ export default function HomePage() {
             <div className="hidden lg:flex items-center gap-2 text-sm font-light text-white">
               <span className="flex items-center gap-2 border-r pr-4 mr-2">
                 <EnvelopeSimple size={20} />
-                atendimento@clinicasantte.com
+                santtesaude@hotmail.com
+              </span>
+              <span className="flex items-center gap-2 border-r pr-4 mr-2">
+                <DeviceMobile size={20} /> (48) 99119-4424
               </span>
               <span className="flex items-center gap-2">
-                <Phone size={20} /> (48) 9999-9999
+                <Phone size={20} /> 3374-0210
               </span>
             </div>
           </div>
@@ -1091,6 +1096,9 @@ export default function HomePage() {
               <div className="absolute w-[90%] text-sm p-5  right-0 -bottom-10 rounded-md  bg-primary-400 text-white">
                 <h1 className="text-xl font-medium">Dr. Rafael Meirelles</h1>
                 <p className="text-xs mt-3 text-zinc-200 leading-relaxed">
+                  - CRM 18004
+                </p>
+                <p className="text-xs mt-3 text-zinc-200 leading-relaxed">
                   - Graduação em Medicina pela Universidade de Ribeirão Preto SP
                   – UNAER
                 </p>
@@ -1246,8 +1254,8 @@ export default function HomePage() {
           <div className="border-t border-white/20 pt-6 mt-10 flex flex-col items-center justify-center">
             <Reveal>
               <span className="text-sm text-zinc-200 font-light text-center md:text-left block">
-                Santté clinica médica Ltda - CNPJ: 09091209/0001-23 | Santté
-                clínica médica
+                Santté Saúde e Bem Estar LTDA - CNPJ: 31.374.439/0001-08 |
+                Santté clínica médica
               </span>
             </Reveal>
             <Reveal>

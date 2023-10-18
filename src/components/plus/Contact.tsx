@@ -33,20 +33,20 @@ export function Contact() {
 
           <Reveal>
             <p className="text-sm md:text-md mt-1 font-light text-zinc-500">
-              Estamos localizado no endereço: <br />- Av. Santa Catarina, 1293 -
-              Sala 405 CEP 88820-284 - Florianópolis - SC
+              Estamos localizado no endereço: <br />- Rua Joci José Martins, 247
+              - Pagani - Palhoça - SC
             </p>
           </Reveal>
 
           <Reveal>
             <div className="relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.3525777844898!2d-48.58775302378798!3d-27.582596621527316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527482723aa9d57%3A0xc445d76cecc986ff!2sAv.%20Santa%20Catarina%2C%201197%20-%20Canto%2C%20Florian%C3%B3polis%20-%20SC%2C%2088075-500!5e0!3m2!1spt-BR!2sbr!4v1691723922733!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.475226660515!2d-48.67793132363013!3d-27.64076502401836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735a1342712a1%3A0x2a402e0819ef27fa!2sR.%20Joci%20Jos%C3%A9%20Martins%2C%20247%20-%20Palho%C3%A7a%2C%20SC%2C%2088132-148!5e0!3m2!1spt-BR!2sbr!4v1697564417549!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="450"
                 loading="lazy"
                 className="mt-5 border-2 border-zinc-200 rounded-md"
-              />
+              ></iframe>
               <img
                 className="absolute right-3 bottom-3 w-44 h-44 select-none object-cover rounded-md border-4 border-zinc-300"
                 src="/santte/image_about.png"

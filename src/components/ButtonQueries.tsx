@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CaretUp, Plus } from "phosphor-react";
+import Link from "next/link";
 
 export function ButtonQueries() {
   const [hasToggleMenuOptions, setHasToggleMenuOptions] = useState(false);
@@ -28,10 +29,15 @@ export function ButtonQueries() {
           <p className="text-white  font-light">Visita Domiciliar</p>
         </div>
 
-        <button className="w-full flex items-center justify-center gap-2 bg-primary-400 text-white text-sm py-3 mt-2 mb-5 font-light rounded-md hover:brightness-90 transition-all">
+        <Link
+          href="https://api.whatsapp.com/send?phone=5548991194424"
+          target="_blank"
+          className="w-full flex items-center justify-center gap-2 bg-primary-400 text-white text-sm py-3 mt-2 mb-5 font-light rounded-md hover:brightness-90 transition-all"
+          title="Clique para ir para agendar sua consulta"
+        >
           <Plus size={18} />
           Agende sua consulta
-        </button>
+        </Link>
 
         <div className="flex items-center justify-center gap-1">
           <div className="w-1 h-1 bg-[#CD9F97] rounded-full" />
@@ -61,9 +67,15 @@ export function ButtonQueries() {
           </p>
         </div>
 
-        <button className="w-full flex items-center justify-center gap-2 bg-primary-400 text-white text-sm py-3 mt-2 mb-5 font-light rounded-md hover:brightness-90 transition-all">
-          <Plus size={18} /> Resultados e laudos
-        </button>
+        <Link
+          href="https://api.whatsapp.com/send?phone=5548991194424"
+          target="_blank"
+          className="w-full flex items-center justify-center gap-2 bg-primary-400 text-white text-sm py-3 mt-2 mb-5 font-light rounded-md hover:brightness-90 transition-all"
+          title="Clique para ir para ver seus resultados e laudos"
+        >
+          <Plus size={18} />
+          Resultados e laudos
+        </Link>
       </div>
 
       <button
