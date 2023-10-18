@@ -164,10 +164,6 @@ export default function HomePage() {
                 Convênios
               </button>
 
-              <button className="uppercase border-b-4 border-white hover:border-primary-500 transition-all h-[120px] leading-[120px] px-4">
-                Estética
-              </button>
-
               <button
                 onClick={() => scrollPage(refContact, setHasToggleMenuMobile)}
                 className="uppercase border-b-4 border-white hover:border-primary-500 transition-all h-[120px] leading-[120px] px-4"
@@ -177,7 +173,7 @@ export default function HomePage() {
             </div>
 
             <Link
-              href=""
+              href="https://api.whatsapp.com/send?phone=5548991194424"
               target="_blank"
               title="Clique para entrar em contato"
               className="hidden xl:flex bg-secondary-500 items-center gap-2 text-white px-7 py-3 text-sm rounded-md hover:brightness-90 transition-all"
@@ -240,8 +236,6 @@ export default function HomePage() {
               >
                 Convênios
               </button>
-
-              <button>Estética</button>
 
               <button
                 onClick={() =>
@@ -1206,7 +1200,7 @@ export default function HomePage() {
                 <h2>Redes sociais</h2>
                 <Link
                   target="_blank"
-                  href=""
+                  href="https://www.instagram.com/santtesaude/"
                   className="mt-2 flex items-center gap-2 font-light text-zinc-300 hover:brightness-90 transition-all"
                 >
                   <InstagramLogo size={24} />
@@ -1214,7 +1208,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   target="_blank"
-                  href=""
+                  href="https://www.facebook.com/santtesaude"
                   className="mt-2 flex items-center gap-2 font-light text-zinc-300 hover:brightness-90 transition-all"
                 >
                   <FacebookLogo size={24} />
@@ -1222,7 +1216,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   target="_blank"
-                  href=""
+                  href="https://api.whatsapp.com/send?phone=5548991194424"
                   className="mt-2 flex items-center gap-2 font-light text-zinc-300 hover:brightness-90 transition-all"
                 >
                   <WhatsappLogo size={24} />
@@ -1235,14 +1229,14 @@ export default function HomePage() {
                 <h2>Contato</h2>
                 <Link
                   target="_blank"
-                  href=""
+                  href="https://api.whatsapp.com/send?phone=5548991194424"
                   className="mt-2 font-light text-zinc-300 hover:brightness-90 transition-all"
                 >
                   Whatsapp
                 </Link>
                 <Link
                   target="_blank"
-                  href="mailto:atendimento@clinicasantte.com"
+                  href="mailto:santtesaude@hotmail.com"
                   className="mt-2 font-light text-zinc-300 hover:brightness-90 transition-all"
                 >
                   E-mail
@@ -1259,9 +1253,13 @@ export default function HomePage() {
               </span>
             </Reveal>
             <Reveal>
-              <span className="text-sm text-zinc-400 mt-2 font-light">
-                Feito por Nitro Desenvolvimentos
-              </span>
+              <Link
+                href="https://nitrodesenvolvimento.com.br"
+                target="_blank"
+                className="text-sm text-zinc-400 mt-2 font-light"
+              >
+                Feito por Nitro desenvolvimento
+              </Link>
             </Reveal>
           </div>
         </div>
